@@ -1,0 +1,82 @@
+h1{
+    text-align: center;
+    margin-left: 120px;
+    font-weight: 700;
+
+    color:darkblue;
+}
+h3{
+    text-align: center;
+    font-weight: 500;
+
+}
+.btn-info{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+
+    font-size: 20px;
+}
+.btn-dark{
+    margin-top: 30px;
+}
+.fa-star{
+    margin-top: 2px;
+}
+
+
+#iImportant{
+    font-size: 30px;
+    color: yellowgreen;
+    cursor: pointer;
+
+}
+
+#iImportant.fas{
+    color:orange;
+
+}
+
+.flex-parent{
+    display:flex;
+    flex-direction: row; 
+
+
+}
+
+#section-list{
+    flex: 3;
+}
+#section-form{
+    flex:2;
+}
+.task {
+    border: 1px solid black;
+    border-radius: 6px; 
+    display:flex; 
+    margin: 10px 20px;
+    padding: 15px; 
+    background-color: rgb(233, 208, 253);
+    align-items: center;
+
+}
+.task i {
+    flex:1;
+
+}
+.task .description{
+    flex:5;
+}
+
+.task .location{
+    flex:2;
+}
+.task button{
+    flex:1; 
+}
+
+.form-fluid{
+    background-color: rgb(233, 208, 253);
+    border-radius: 10%;
+}
